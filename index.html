@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="heading">Chatbot AI</h1>
+
+        <div class="chat-box">
+            <ul class="message" id="message">
+                <!-- <li>hello</li>
+                <li class="bot">hello, how can i help you</li> -->
+            </ul>
+            <div class="loader" id="loader">
+                <img src="images/loader.gif" alt="">
+            </div>
+            <input onkeydown="sendMessage()" class="user-input" type="text" id="userInput" placeholder="Type your message here..." />
+
+            <img onclick="deleteMessages()"  class="delete" id="delete" src="images/delete.png" alt="">
+        </div>
+
+        
+
+        <div class="footer">
+            <p>&copy; 2023 Chatbot AI. All rights reserved.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
